@@ -17,7 +17,7 @@ podman run --name hellocpp -p 9080:9080 hellocpp
 
 In another terminal, test with the following command
 ```
-curl -d "SomeText" http://localhost:9080/resource
+curl http://localhost:9080/hello[/<NAME>]
 ```
 
 ## OpenShift
